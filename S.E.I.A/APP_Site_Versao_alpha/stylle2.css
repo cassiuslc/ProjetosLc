@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+
+body{
+	font: 300 16px Oswald;
+
+}
+#login{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	border: 1px solid #CCC;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 400px;
+	padding-right: 25px;
+	opacity: 20%;
+}
+.acomodar{
+	margin: 0 auto;
+	width: 250px;
+
+}
+#login label{
+	display: block;
+	padding-top: 10px;
+}
+
+.logo{
+width: 200px;
+height: 200px;
+margin:0 auto;
+padding; 7px;
+}
+
+.txt{
+	border: none;
+	height: 40px;
+	width: 250px;
+	border: 1px solid #CCC;
+}
+.sb{
+	display: block;
+	border: none;
+	width: 250PX;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #999;
+}
+.sb:hover{
+background: #3F51B5;
+color: #fff;
+}
+.sA:hover{
+background: #4682B4;
+color: #fff;
+}
+.sR:hover{
+background: #FF6347;
+color: #fff;
+}
+.sA{
+	display: block;
+	border: none;
+	width: 250PX;
+	height: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #4682B4;
+}
+
+.sR{
+	display: block;
+	border: none;
+	width: 250PX;
+	height: 40px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #FF6347;
+}
+
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.txt,.txt:focus,.sb,sb:hover,.sA,sA:hover,.sR,sR:hover{
+transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+}

@@ -1,0 +1,3 @@
+[07-Nov-2016 19:21:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/seiap290/public_html/app/ocroute/oc_rota.php on line 5
+[07-Nov-2016 20:27:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'Em' (T_STRING) in /home/seiap290/public_html/app/ocroute/oc_rota.php on line 33
+[07-Nov-2016 21:13:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/seiap290/public_html/app/ocroute/oc_rota.php on line 53

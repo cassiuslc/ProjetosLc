@@ -1,0 +1,69 @@
+[04-Nov-2016 19:40:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$senhaOriginal' (T_VARIABLE) in /home/seiap290/public_html/app/logar.php on line 24
+[04-Nov-2016 19:42:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 34
+[04-Nov-2016 20:30:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:30:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:30:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:30:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:31:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:31:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/seiap290/public_html/app/logar.php:19) in /home/seiap290/public_html/app/logar.php on line 43
+[04-Nov-2016 20:40:13 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/seiap290/public_html/app/logout.php on line 2
+[04-Nov-2016 20:41:08 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/seiap290/public_html/app/logout.php on line 2
+[04-Nov-2016 20:54:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/seiap290/public_html/app/index.php on line 3
+[04-Nov-2016 20:56:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/seiap290/public_html/app/logar.php on line 74
+[04-Nov-2016 20:59:29 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/seiap290/public_html/app/logout.php on line 2
+[04-Nov-2016 20:59:43 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/seiap290/public_html/app/logout.php on line 2
+[04-Nov-2016 21:00:33 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/seiap290/public_html/app/logout.php on line 2
+[04-Nov-2016 21:01:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_destroy' (T_STRING) in /home/seiap290/public_html/app/logout.php on line 3
+[04-Nov-2016 21:01:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'session_destroy' (T_STRING) in /home/seiap290/public_html/app/logout.php on line 3
+[05-Nov-2016 16:14:41 America/Chicago] PHP Parse error:  syntax error, unexpected '/', expecting end of file in /home/seiap290/public_html/app/geo.php on line 48
+[05-Nov-2016 16:19:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$dados_array' (T_VARIABLE) in /home/seiap290/public_html/app/geo.php on line 41
+[05-Nov-2016 16:26:52 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/seiap290/public_html/app/geo.php on line 12
+[05-Nov-2016 16:38:50 America/Chicago] PHP Warning:  file_get_contents(http://maps.google.com/maps/api/geocode/json?address=-3.134774, -59.996111&amp;sensor=false): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/seiap290/public_html/app/geo.php on line 5
+[05-Nov-2016 19:48:09 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Em Aberto' at line 1 [SELECT * FROM ocorrencia,acidente where ocoacicod=acidente.acicod and ocostatus='Em Aberto] in /home/seiap290/public_html/app/ocorrencia.php on line 36
+[05-Nov-2016 19:48:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/ocorrencia.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/ocorrencia.php on line 37
+[05-Nov-2016 19:48:38 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Concluido''' at line 1 [SELECT * FROM ocorrencia,acidente where ocoacicod=acidente.acicod and ocostatus='Concluido''] in /home/seiap290/public_html/app/ocorrencia.php on line 93
+[05-Nov-2016 19:48:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/ocorrencia.php:94
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/ocorrencia.php on line 94
+[05-Nov-2016 19:49:59 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/ocorrencia.php on line 98
+[05-Nov-2016 20:09:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'usuario' (T_STRING), expecting ',' or ';' in /home/seiap290/public_html/app/ocorrencia.php on line 104
+[05-Nov-2016 20:24:34 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/seiap290/public_html/app/ocorrencia.php on line 87
+[05-Nov-2016 20:35:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/ocorrencia.php on line 141
+[06-Nov-2016 17:22:17 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/seiap290/public_html/app/ocorrencia.php on line 30
+[06-Nov-2016 17:24:06 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/seiap290/public_html/app/ocorrencia.php on line 30
+[06-Nov-2016 17:24:59 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/seiap290/public_html/app/ocorrencia.php on line 35
+[06-Nov-2016 17:33:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/seiap290/public_html/app/ocorrencia.php on line 35
+[06-Nov-2016 17:34:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/ocorrencia.php on line 85
+[06-Nov-2016 18:28:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'menssage' (T_STRING), expecting ',' or ';' in /home/seiap290/public_html/app/index.php on line 30
+[06-Nov-2016 18:28:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'menssage' (T_STRING), expecting ',' or ';' in /home/seiap290/public_html/app/index.php on line 30
+[06-Nov-2016 18:28:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'menssage' (T_STRING), expecting ',' or ';' in /home/seiap290/public_html/app/index.php on line 30
+[06-Nov-2016 18:29:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/seiap290/public_html/app/index.php on line 30
+[06-Nov-2016 18:30:38 America/Chicago] PHP Parse error:  syntax error, unexpected '?>' in /home/seiap290/public_html/app/index.php on line 30
+[06-Nov-2016 19:32:20 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '123' limit 1' at line 1 [SELECT usucod,usulogin,ususenha FROM usuarios where usulogin='teste'' and ususenha='123' limit 1] in /home/seiap290/public_html/app/logar.php on line 41
+[06-Nov-2016 19:32:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/logar.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/logar.php on line 42
+[06-Nov-2016 22:05:53 America/Chicago] PHP Parse error:  syntax error, unexpected '"Medio"' (T_CONSTANT_ENCAPSED_STRING) in /home/seiap290/public_html/app/ocorrencia.php on line 81
+[07-Nov-2016 19:32:19 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/seiap290/public_html/app/logar.php on line 34
+[07-Nov-2016 19:43:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/ocorrencia.php on line 220
+[07-Nov-2016 23:01:33 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2'' at line 1 [SELECT * FROM ocorrencia,acidente where ocoacicod=acidente.acicod and ocostatus='Concluida and ocoambcod='2';] in /home/seiap290/public_html/app/ocorrencia.php on line 168
+[07-Nov-2016 23:01:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/ocorrencia.php:169
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/ocorrencia.php on line 169
+[07-Nov-2016 23:02:17 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Concluida and ocoambcod=2' at line 1 [SELECT * FROM ocorrencia,acidente where ocoacicod=acidente.acicod and ocostatus='Concluida and ocoambcod=2;] in /home/seiap290/public_html/app/ocorrencia.php on line 168
+[07-Nov-2016 23:02:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/ocorrencia.php:169
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/ocorrencia.php on line 169
+[07-Nov-2016 23:02:19 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Concluida and ocoambcod=2' at line 1 [SELECT * FROM ocorrencia,acidente where ocoacicod=acidente.acicod and ocostatus='Concluida and ocoambcod=2;] in /home/seiap290/public_html/app/ocorrencia.php on line 168
+[07-Nov-2016 23:02:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/ocorrencia.php:169
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/ocorrencia.php on line 169

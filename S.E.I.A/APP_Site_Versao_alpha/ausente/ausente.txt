@@ -1,0 +1,67 @@
+﻿<?php 
+
+$usuario = "seiap290";
+$senha = "70Qgq82amK";
+$host = "www.seiaproject.com.br";
+$banco= "seiap290_Oficial";
+$mysqli = new mysqli($host, $usuario, $senha, $banco);
+
+	if (mysqli_connect_errno()) {
+    	die('Ocorreu um IGO, Não foi possível conectar-se: ' . mysqli_connect_error(). "\n");
+  	  	exit();
+}
+
+$funcod = $_GET['funcod'];
+//$sql = ();
+
+$sql = ("SELECT * FROM funcionario where funcod=".$funcod.";");
+
+$result = $mysqli->query($sql) or trigger_error($mysqli->error." [$sql]"); 
+	while($row = $result->fetch_array()) {
+    $funcod=$row['funcod'];
+	$funnome=$row['funnome'];	
+
+}
+
+php?>
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylle2.css">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+	<meta charset="UTF-8">
+	<title>S.E.I.A - Ausente</title>
+</head>
+<body>
+<div id="cadastrar"><a href="http://www.seiaproject.com.br/app/ausente.php" title="Entre no Site Do Projeto">Ausente &raquo;</a></div>
+<div class="menssage2">Esta ausente ?</div>
+	<div id="Nome" class="bradius">
+
+		<div class="ausente" style="
+    height: 410px;
+">
+		<form action="insere.php" method="post">
+		<input type="text" value="<?php echo $funcod; php?>"/>
+		<label for="Funcionario">Funcionario:</label><input id="funnome" value="<?php echo $funnome; php?>" type="text" class="txt bradius" readonly="readonly" name="funnome">
+		<br/>
+		<label for="Motivo">Motivo:</label><input id="ausmotivo"  value="<?php echo $ausmotivo; php?>" type="text" class="txt bradius" readonly="readonly" name="ausmotivo">
+		<br/>
+		<input type="hidden" value="<?php echo $aushora; php?>"/>
+		<label for="Horario">Horario:</label><input id="aushora" value="<?php echo $aushora; php?>" type="text" class="txt bradius" readonly="readonly" name="aushora">
+		
+		
+		<button class="sA bradius" type="submit" name="Salvar">Salvar</button>
+		
+
+		</form>
+		
+ 
+     
+
+</body>
+</html>

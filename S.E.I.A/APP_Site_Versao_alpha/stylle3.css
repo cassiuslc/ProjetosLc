@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+
+body{
+	font: 300 16px Oswald;
+
+}
+.menssage2{
+	width: 100%;
+	padding-top: 7px;
+font: 400 18px Oswald;
+	color: #fff;
+	height: 40px;
+	background: #4B528D;
+	margin: 0 auto;
+	text-align: center;
+}
+#reftt{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	height: 40px;
+	width: 70px;
+	background: #607D8B;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 200px;
+	top: 10;
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 18px  Oswald;
+}
+#reftt a{
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 22px  Oswald;
+}
+#reftt:hover{
+background: #4B528D;
+	color: #fff;
+font: 400 18px  Oswald;
+}
+
+
+
+#reft{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	height: 40px;
+	width: 70px;
+	background: #DA4A4E;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 200px;
+	top: 10;
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 18px  Oswald;
+}
+#reft a{
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 22px  Oswald;
+}
+#reft:hover{
+background: #4B528D;
+	color: #fff;
+font: 400 18px  Oswald;
+}
+#cadastrar a:hover{
+color:#fff;
+}
+a{
+	text-decoration: none;
+}
+#reft a{
+border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+color: #999;
+padding-top: 5px;
+display: block;
+height:36px;
+font: 400 18px  Oswald;
+}
+
+
+#cadastrar{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	height: 40px;
+	width: 120px;
+	background: #f1f1f1;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 50px;
+	top: 10;
+
+}
+#cadastrar{
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 18px  Oswald;
+}
+#cadastrar a{
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 22px  Oswald;
+}
+#cadastrar:hover{
+	color: #fff;
+font: 400 18px  Oswald;
+background: #DA4A4E;
+}
+#cadastrar a:hover{
+color:#fff;
+}
+a{
+	text-decoration: none;
+}
+#cadastrar a{
+border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+color: #999;
+padding-top: 5px;
+display: block;
+height:36px;
+font: 400 18px  Oswald;
+}
+#historico{
+width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	border: 1px solid #CCC;
+	padding-right: 300px;
+   	padding-left: 300px;
+	opacity: 20%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	opacity: 20%;
+}
+#ocorrencia{
+width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	border: 1px solid #CCC;
+	padding-right: 300px;
+   	padding-left: 300px;
+	opacity: 20%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 50px
+}
+.acomodar{
+	margin: 0 auto;
+	width: 250px;
+
+}
+#historico label{
+	display: block;
+	padding-top: 10px;
+}
+#ocorrencia label{
+	display: block;
+	padding-top: 10px;
+}
+
+.logo{
+width: 200px;
+height: 200px;
+margin:0 auto;
+padding; 7px;
+}
+
+.txt{
+	border: none;
+	height: 40px;
+	width: 250px;
+	border: 1px solid #CCC;
+}
+.txt:focus{
+	background: #3F51B5;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 1px 16px #607D8B;
+	-webkit-box-shadow: 0 1px 16px #607D8B;
+	-moz-box-shadow: 0 1px 16px #607D8B;
+
+}
+.sb{
+	display: block;
+	border: none;
+	width: 250PX;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #999;
+}
+.sb:hover{
+background: #3F51B5;
+color: #fff
+}
+
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.txt,.txt:focus,.sb,sb:hover,#cadastrar,#cadastrar a,#cadastrar:hover,#reft,#reft a,#reft:hover,#reftt,#reftt a,#reftt:hover{
+transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+}

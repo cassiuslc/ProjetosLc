@@ -1,0 +1,143 @@
+[06-Nov-2016 19:47:39 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:48:34 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:48:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 19:48:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 19:49:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:51:15 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:51:20 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:51:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:52:15 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:52:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 92
+[06-Nov-2016 19:52:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 86
+[06-Nov-2016 19:52:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 86
+[06-Nov-2016 19:52:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 86
+[06-Nov-2016 19:52:26 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 86
+[06-Nov-2016 19:52:45 America/Chicago] PHP Notice:  Unknown column 'locbaicod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on baicod=locbaicod  where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 19:52:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 19:52:46 America/Chicago] PHP Notice:  Unknown column 'locbaicod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on baicod=locbaicod  where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 19:52:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 19:52:47 America/Chicago] PHP Notice:  Unknown column 'locbaicod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on baicod=locbaicod  where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 19:52:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:36:12 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:36:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:36:14 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:36:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:36:17 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:36:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:36:18 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:36:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:36:28 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:36:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:54:32 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:54:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 20:54:34 America/Chicago] PHP Notice:  Unknown column 'bailoccod' in 'on clause' [SELECT motnome,acigravidade,bainome FROM ocorrencia inner join seia on ocoseicod=seicod inner join motorista on seimotcod=motcod inner join ambulancia on ocoambcod=ambcod inner join acidente on ocoacicod=acicod inner join locall on ocoloccod=loccod inner join bairro on loccod=bailoccod where ocoacicod=acidente.acicod and ocostatus='Em aberto'] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 18
+[06-Nov-2016 20:54:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:23:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 62
+[06-Nov-2016 22:24:21 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 62
+[06-Nov-2016 22:46:14 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/ocorrencia_gabs.php on line 19
+[06-Nov-2016 22:46:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/ocorrencia_gabs.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/ocorrencia_gabs.php on line 20
+[06-Nov-2016 22:51:02 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:51:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:53:59 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:53:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:01 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:02 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:03 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:04 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:05 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:05 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:06 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:18 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[06-Nov-2016 22:54:20 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[06-Nov-2016 22:54:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[07-Nov-2016 18:54:02 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[07-Nov-2016 18:54:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[07-Nov-2016 18:54:04 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[07-Nov-2016 18:54:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[07-Nov-2016 18:54:08 America/Chicago] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod' at line 1 [SELECT * FROM ocorrencia,acidente,motorista,seia where ococod= and ocoacicod=acidente.acicod and ocoseicod=seicod and seimotcod=motcod;] in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 19
+[07-Nov-2016 18:54:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/seiap290/public_html/app/nc/nova_ocorrencia.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/seiap290/public_html/app/nc/nova_ocorrencia.php on line 20
+[07-Nov-2016 19:49:59 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/seiap290/public_html/app/nc/ocorrencia_gabs.php on line 106

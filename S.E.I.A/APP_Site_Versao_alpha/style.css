@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+
+body{
+	font: 300 16px Oswald;
+
+}
+a{
+	text-decoration: none;
+}
+#login{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	border: 1px solid #CCC;
+	padding: 25px;
+	opacity: 20%;
+}
+.message{
+	width: 100%;
+	padding-top: 2px;
+	color: #666;
+	background: #f1f1f1;
+	margin: 0 auto;
+	text-align: center;
+}
+#cadastrar{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	height: 40px;
+	width: 120px;
+	background: #f1f1f1;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+#cadastrar a{
+color: #999;
+padding-top: 5px;
+display: block;
+font: 400 22px  Oswald;
+}
+#cadastar:hover{
+	background: #DA4A4E;
+	color: #fff;
+}
+#cadastrar a{
+	color: #fff;
+}
+.acomodar{
+	margin: 0 auto;
+	width: 250px;
+
+}
+#login label{
+	display: block;
+	padding-top: 10px;
+}
+
+.logo{
+width: 200px;
+height: 200px;
+margin:0 auto;
+padding; 7px;
+}
+
+.txt{
+	border: none;
+	height: 40px;
+	width: 250px;
+	border: 1px solid #CCC;
+}
+.txt:focus{
+	background: #DA4A4E;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 1px 16px #607D8B;
+	-webkit-box-shadow: 0 1px 16px #607D8B;
+	-moz-box-shadow: 0 1px 16px #607D8B;
+
+}
+.sb{
+	display: block;
+	border: none;
+	width: 250PX;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color: #999;
+}
+.sb:hover{
+background: #DA4A4E;;
+color: #fff
+}
+
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.txt,.txt:focus,.sb,sb:hover{
+transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+}

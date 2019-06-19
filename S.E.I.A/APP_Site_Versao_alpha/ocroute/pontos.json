@@ -1,0 +1,14 @@
+[
+	{
+		"Id": 1,
+        "Latitude": -3.136883,
+        "Longitude": -59.983584,
+		"Descricao": "Você está na FUCAPI"
+    },
+    {
+		"Id": 2,
+        "Latitude": -3.136883,
+        "Longitude": -59.983580,
+		"Descricao": "Acidente"
+    }
+]
